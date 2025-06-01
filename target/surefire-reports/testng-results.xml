@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-06-01T22:09:03 EEST" name="API Test Suite" finished-at="2025-06-01T22:09:10 EEST" duration-ms="6615">
+    <groups>
+    </groups>
+    <test started-at="2025-06-01T22:09:03 EEST" name="Post API Tests" finished-at="2025-06-01T22:09:10 EEST" duration-ms="6615">
+      <class name="tests.PostApiTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.PostApiTests@173ed316]" started-at="2025-06-01T22:09:03 EEST" name="setUp" finished-at="2025-06-01T22:09:04 EEST" duration-ms="734" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="createPost_shouldReturn201_andValidResponse()[pri:1, instance:tests.PostApiTests@173ed316]" started-at="2025-06-01T22:09:04 EEST" name="createPost_shouldReturn201_andValidResponse" finished-at="2025-06-01T22:09:07 EEST" duration-ms="3603" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createPost_shouldReturn201_andValidResponse -->
+        <test-method signature="createInvalidPost_shouldReturn201()[pri:2, instance:tests.PostApiTests@173ed316]" started-at="2025-06-01T22:09:07 EEST" name="createInvalidPost_shouldReturn201" finished-at="2025-06-01T22:09:08 EEST" duration-ms="552" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createInvalidPost_shouldReturn201 -->
+        <test-method signature="getAllPosts_shouldReturn200_andValidateCount()[pri:3, instance:tests.PostApiTests@173ed316]" started-at="2025-06-01T22:09:08 EEST" name="getAllPosts_shouldReturn200_andValidateCount" finished-at="2025-06-01T22:09:09 EEST" duration-ms="977" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllPosts_shouldReturn200_andValidateCount -->
+        <test-method signature="getSpecificPostById_shouldReturn200_andCorrectPost()[pri:4, instance:tests.PostApiTests@173ed316]" started-at="2025-06-01T22:09:09 EEST" name="getSpecificPostById_shouldReturn200_andCorrectPost" finished-at="2025-06-01T22:09:09 EEST" duration-ms="286" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getSpecificPostById_shouldReturn200_andCorrectPost -->
+        <test-method signature="getPostWithInvalidId_shouldReturn404_orEmptyObject()[pri:5, instance:tests.PostApiTests@173ed316]" started-at="2025-06-01T22:09:09 EEST" name="getPostWithInvalidId_shouldReturn404_orEmptyObject" finished-at="2025-06-01T22:09:10 EEST" duration-ms="263" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPostWithInvalidId_shouldReturn404_orEmptyObject -->
+      </class> <!-- tests.PostApiTests -->
+    </test> <!-- Post API Tests -->
+  </suite> <!-- API Test Suite -->
+</testng-results>
